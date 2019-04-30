@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="calc-form">
+        <div id="equation" class="col-1-4 row-0">
+            <span id="eq"></span>
+        </div>
+        <div id="display" class="col-1-4 row-1">
+            <span id="input">0</span>
+        </div>
+        <button id="clear" type="button" value="clear" class="col-1 row-2">AC</button>
+        <button id="sign" type="button" value="+/-" class="col-2 row-2">±</button>
+        <button id="percent" type="button" value="%" class="col-3 row-2">%</button>
+        <button id="divide" type="button" value="/" class="col-4 row-2 oper">÷</button>
+        <button id="seven" type="button" value="7" class="col-1 row-3 num">7</button>
+        <button id="eight" type="button" value="8" class="col-2 row-3 num">8</button>
+        <button id="nine" type="button" value="9" class="col-3 row-3 num">9</button>
+        <button id="multiply" type="button" value="*" class="col-4 row-3 oper">×</button>
+        <button id="four" type="button" value="4" class="col-1 row-4 num">4</button>
+        <button id="five" type="button" value="5" class="col-2 row-4 num">5</button>
+        <button id="six" type="button" value="6" class="col-3 row-4 num">6</button>
+        <button id="subtract" type="button" value="-" class="col-4 row-4 oper">−</button>
+        <button id="one" type="button" value="1" class="col-1 row-5 num">1</button>
+        <button id="two" type="button" value="2" class="col-2 row-5 num">2</button>
+        <button id="three" type="button" value="3" class="col-3 row-5 num">3</button>
+        <button id="add" type="button" value="+" class="col-4 row-5 oper">+</button>
+        <button id="zero" type="button" value="0" class="col-1-2 row-6 num">0</button>
+        <button id="decimal" type="button" value="." class="col-3 row-6 num">.</button>
+        <button id="equals" type="button" value="=" class="col-4 row-6 oper">=</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
