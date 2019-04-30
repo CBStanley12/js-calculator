@@ -1,4 +1,4 @@
-<h1 align="center">JavaScript</h1>
+<h1 align="center">JavaScript Calculator</h1>
 <p align="center">A calculator built with JavaScript</p>
 
 ## Table of Contents
